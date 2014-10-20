@@ -5,8 +5,7 @@ build:
   steps:
     # A step that executes `npm install` command
     - npm-install
-    - npm install grunt-swagger-tools
-    - npm-test
+#    - npm-test
     # validate our build is good
     - grunt:
         tasks: validate
